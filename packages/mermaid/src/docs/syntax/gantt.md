@@ -404,3 +404,27 @@ gantt
     section Issue1300
     5    : 0, 5
 ```
+
+## 测试
+gantt
+    title 丰台区卫生健康委预算管理体系建设进程
+    dateFormat YYYY
+    axisFormat %Y
+    
+    section 局机关
+    局机关试行财务预算管理 :a1, 2015, 1年
+
+    section 区属医院与卫生机构    
+    区属医院与卫生机构全面预算管理建设 :after a1, 2018, 1年
+
+    section 基层医疗卫生机构
+    基层医疗卫生机构全面预算管理建设 :after a2, 2019, 1年
+    
+    section 预算管理体系衔接
+    局端与院端预算管理衔接 :after b1, 2020, 1年
+    
+    section 预算管理运行验证
+    预算管理上传下达工作验证 :after c1, 2021, 1年
+
+    section 业务功能拓展
+    业务功能拓展与管理流程更新 :after d1, 2022
